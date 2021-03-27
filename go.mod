@@ -1,3 +1,3 @@
-module github.com/luckyshmo/eLog
+module github.com/luckyshmo/log
 
 go 1.15
