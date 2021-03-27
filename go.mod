@@ -1,3 +1,3 @@
-module github.com/Luckyshmo/log
+module github.com/Luckyshmo/goLogger
 
 go 1.15
