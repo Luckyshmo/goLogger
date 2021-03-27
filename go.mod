@@ -1,4 +1,3 @@
-module github.com/misha2017/goLogger
-
+module github.com/Luckyshmo/log
 
 go 1.15
