@@ -19,10 +19,7 @@ func Init(
 	infoHandle io.Writer,
 	warningHandle io.Writer,
 	errorHandle io.Writer) {
-	// file, err := os.OpenFile("logs.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
+
 	Trace = log.New(traceHandle,
 		"TRACE: ",
 		log.Ldate|log.Ltime|log.Lshortfile)
